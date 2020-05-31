@@ -1,0 +1,78 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "home page feature test",
+    "children" : [ {
+      "name" : "verify home page title",
+      "uid" : "deca6fa15260ea16",
+      "parentUid" : "b06869ff7f71ae752bc27105adea5bbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590937503689,
+        "stop" : 1590937522314,
+        "duration" : 18625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify header homePage",
+      "uid" : "6782c5168504fca8",
+      "parentUid" : "b06869ff7f71ae752bc27105adea5bbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590937522315,
+        "stop" : 1590937524261,
+        "duration" : 1946
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b06869ff7f71ae752bc27105adea5bbc"
+  }, {
+    "name" : "loginpage feature test",
+    "children" : [ {
+      "name" : "verify login page title",
+      "uid" : "23e7686f7c35fb99",
+      "parentUid" : "33940cfacaffba87be8371f3e27c4101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590938802475,
+        "stop" : 1590938809759,
+        "duration" : 7284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify sign up link",
+      "uid" : "b38d8cb5ffc61bd6",
+      "parentUid" : "33940cfacaffba87be8371f3e27c4101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590938809760,
+        "stop" : 1590938810029,
+        "duration" : 269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify login",
+      "uid" : "afa9cd5221b5023b",
+      "parentUid" : "33940cfacaffba87be8371f3e27c4101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590938810030,
+        "stop" : 1590938812793,
+        "duration" : 2763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "33940cfacaffba87be8371f3e27c4101"
+  } ]
+}

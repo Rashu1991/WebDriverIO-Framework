@@ -1,0 +1,66 @@
+{
+  "uid" : "23e7686f7c35fb99",
+  "name" : "verify login page title",
+  "fullName" : "loginpage feature test.verify login page title",
+  "historyId" : "fda13a9f2743f6480fc80b3f2bdd4e87",
+  "time" : {
+    "start" : 1590938802475,
+    "stop" : 1590938809759,
+    "duration" : 7284
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login page title"
+  }, {
+    "name" : "package",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5805b1688bbc4891",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590938305572,
+        "stop" : 1590938312909,
+        "duration" : 7337
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23e7686f7c35fb99.json",
+  "parameterValues" : [ "chrome" ]
+}
