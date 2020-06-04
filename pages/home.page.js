@@ -8,20 +8,26 @@ class HomePage{
     get accountInfo(){return $('#account-menu')}
     get accountUserName(){return $("//div[text()='Shobhit Shobhit']")}
     get signOut(){return $('=Sign out')}
+    get contact(){return $('#nav-primary-contacts-branch')}
+    get contactDropDown_Contact(){return $('#nav-secondary-contacts')}
+    
     getPageTitle(){
         
         return elementUtil.doGetPageTitle(constantData.HOME_PAGE_TITLE);
-
     }
 
 
     doClickOnSearch(){
-        return elementUtil.doClick(this.serchElement)
+        elementUtil.doClick(this.serchElement)
+        return elementUtil.doIsEnabled(this.serchElement)
     }
 
     doClickAccountInfo(){
-        return elementUtil.doClick(this.accountInfo)
+        elementUtil.doClick(this.accountInfo)
+        return elementUtil.doIsEnabled(this.accountInfo)
+
     }
+
     getHeaderText(){
        return  elementUtil.doGetText(this.header);
     }
@@ -30,9 +36,17 @@ class HomePage{
         return elementUtil.doGetText(this.accountUserName)
     }
     doSignOut(){
+        elementUtil.doClick(this.accountInfo)
         elementUtil.doScrollToElement(this.signOut)
-        return elementUtil.doClick(this.signOut)
+        elementUtil.doClick(this.signOut)
     }
+
+    doClickOnContact(){
+        elementUtil.doClick(this.contact)
+        return elementUtil.doIsEnabled(this.contact)
+    }
+
+
 }
 
 module.exports = new HomePage();

@@ -1,5 +1,6 @@
 const loginPage = require("../pages/login.page")
 const homePage =  require("../pages/home.page")
+const contactPage = require("../pages/contact.page")
 const configData = require("../config")
 const constantData = require("../constants")
 const assert = require('assert')
@@ -25,6 +26,7 @@ describe("home page feature test",function(){
     })
 
     it("verify click on search",function(){
+        console.log(homePage.doClickOnSearch())
         assert.equal(homePage.doClickOnSearch(),true,'not clicked on search');
         
     })
@@ -36,12 +38,17 @@ describe("home page feature test",function(){
         assert.equal(accName,constantData.HOME_PAGE_ACC_NAME,'acc name invalid');
     })
 
+    it("verify click on contact Dropdown",function(){
+        assert.equal(homePage.doClickOnContact(),true,'not clicked on contacts');
+    })
+
     it("verify sign out",function(){
-        
-        if(homePage.doClickAccountInfo()){
-            assert.equal(homePage.doSignOut(),true,'not signed out of the application')
-        }
+        homePage.doSignOut()
+        const title=loginPage.getPageTitle();
+        assert.equal(title,constantData.LOGIN_PAGE_TITLE,'title not matched and npt signed out')
 
     })
+
+    
 
 })

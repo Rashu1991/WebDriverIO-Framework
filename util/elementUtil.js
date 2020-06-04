@@ -3,7 +3,6 @@ class ElementUtil{
     doClick(element){
         element.waitForDisplayed();
         element.click();
-        return true;
     }
 
     doSetValue(element,value){
@@ -24,13 +23,21 @@ class ElementUtil{
     }
 
     doIsDisplayed(element){
-
         element.waitForDisplayed();
         return element.isDisplayed();
+    }
+
+    doIsEnabled(element){
+        element.waitForDisplayed();
+        return element.isEnabled();
     }
     doScrollToElement(element){
         element.waitForDisplayed();
         element.scrollIntoView();
+    }
+    doMoveToElement(element){
+        element.waitForDisplayed();
+        element.moveTo()
     }
 }
 
