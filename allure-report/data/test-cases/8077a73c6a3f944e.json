@@ -1,0 +1,58 @@
+{
+  "uid" : "8077a73c6a3f944e",
+  "name" : "create contact test",
+  "fullName" : "contact feature test.create contact test",
+  "historyId" : "10b94122897694c191a2f8f10cc13311",
+  "time" : {
+    "start" : 1591456170806,
+    "stop" : 1591456181501,
+    "duration" : 10695
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "contact feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "contact feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "create contact test"
+  }, {
+    "name" : "package",
+    "value" : "contact feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8077a73c6a3f944e.json",
+  "parameterValues" : [ "chrome" ]
+}

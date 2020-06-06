@@ -5,5 +5,4 @@ module.exports={
     jobTitle : 'testTitle',
     phoneNumber : '939321'
 
-
 }

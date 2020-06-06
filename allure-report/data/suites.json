@@ -1,0 +1,160 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "loginpage feature test",
+    "children" : [ {
+      "name" : "verify login page title",
+      "uid" : "adaf8268055f78fe",
+      "parentUid" : "af2fa2f3e6fd797241018feef720b56a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456053625,
+        "stop" : 1591456060860,
+        "duration" : 7235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify sign up link",
+      "uid" : "37039e143b52ba4e",
+      "parentUid" : "af2fa2f3e6fd797241018feef720b56a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456060862,
+        "stop" : 1591456061092,
+        "duration" : 230
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify login",
+      "uid" : "fac4a0cc4ec96a15",
+      "parentUid" : "af2fa2f3e6fd797241018feef720b56a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456061093,
+        "stop" : 1591456063241,
+        "duration" : 2148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "af2fa2f3e6fd797241018feef720b56a"
+  }, {
+    "name" : "home page feature test",
+    "children" : [ {
+      "name" : "verify home page title",
+      "uid" : "6c6a3bdf5202874a",
+      "parentUid" : "bf16774ca36e41509beb7646e8abb7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456088005,
+        "stop" : 1591456107082,
+        "duration" : 19077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify home page header",
+      "uid" : "470014bee207b53a",
+      "parentUid" : "bf16774ca36e41509beb7646e8abb7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456107083,
+        "stop" : 1591456108538,
+        "duration" : 1455
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify click on search",
+      "uid" : "e3f100a3cb57ceef",
+      "parentUid" : "bf16774ca36e41509beb7646e8abb7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456108538,
+        "stop" : 1591456110054,
+        "duration" : 1516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify account name ",
+      "uid" : "7a9110a9a221df94",
+      "parentUid" : "bf16774ca36e41509beb7646e8abb7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456110055,
+        "stop" : 1591456111593,
+        "duration" : 1538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify click on contact Dropdown",
+      "uid" : "49cfdb5339a29f61",
+      "parentUid" : "bf16774ca36e41509beb7646e8abb7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456111594,
+        "stop" : 1591456111913,
+        "duration" : 319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify sign out",
+      "uid" : "6bc2a7ba1085f7a6",
+      "parentUid" : "bf16774ca36e41509beb7646e8abb7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456111914,
+        "stop" : 1591456115138,
+        "duration" : 3224
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "bf16774ca36e41509beb7646e8abb7e9"
+  }, {
+    "name" : "contact feature test",
+    "children" : [ {
+      "name" : "verify click on create contact",
+      "uid" : "64423a51d7069e98",
+      "parentUid" : "c3dea14c6b345e63f95854510b0b108e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456146290,
+        "stop" : 1591456170804,
+        "duration" : 24514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "create contact test",
+      "uid" : "8077a73c6a3f944e",
+      "parentUid" : "c3dea14c6b345e63f95854510b0b108e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591456170806,
+        "stop" : 1591456181501,
+        "duration" : 10695
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c3dea14c6b345e63f95854510b0b108e"
+  } ]
+}

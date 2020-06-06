@@ -1,0 +1,66 @@
+{
+  "uid" : "470014bee207b53a",
+  "name" : "verify home page header",
+  "fullName" : "home page feature test.verify home page header",
+  "historyId" : "19bd58cde80782d196f6c2dc4bcd045",
+  "time" : {
+    "start" : 1591456107083,
+    "stop" : 1591456108538,
+    "duration" : 1455
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "home page feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "home page feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify home page header"
+  }, {
+    "name" : "package",
+    "value" : "home page feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "951ff5a7b01ba3bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591455883357,
+        "stop" : 1591455887213,
+        "duration" : 3856
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "470014bee207b53a.json",
+  "parameterValues" : [ "chrome" ]
+}

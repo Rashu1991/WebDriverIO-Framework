@@ -1,0 +1,66 @@
+{
+  "uid" : "49cfdb5339a29f61",
+  "name" : "verify click on contact Dropdown",
+  "fullName" : "home page feature test.verify click on contact Dropdown",
+  "historyId" : "162370d2f8497bddedf91e97ac1c1ec8",
+  "time" : {
+    "start" : 1591456111594,
+    "stop" : 1591456111913,
+    "duration" : 319
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "home page feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "home page feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify click on contact Dropdown"
+  }, {
+    "name" : "package",
+    "value" : "home page feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f4ee6cd445e8c5ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591455893569,
+        "stop" : 1591455893842,
+        "duration" : 273
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49cfdb5339a29f61.json",
+  "parameterValues" : [ "chrome" ]
+}

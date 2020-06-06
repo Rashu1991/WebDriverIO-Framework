@@ -1,0 +1,58 @@
+{
+  "uid" : "adaf8268055f78fe",
+  "name" : "verify login page title",
+  "fullName" : "loginpage feature test.verify login page title",
+  "historyId" : "fda13a9f2743f6480fc80b3f2bdd4e87",
+  "time" : {
+    "start" : 1591456053625,
+    "stop" : 1591456060860,
+    "duration" : 7235
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login page title"
+  }, {
+    "name" : "package",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adaf8268055f78fe.json",
+  "parameterValues" : [ "chrome" ]
+}

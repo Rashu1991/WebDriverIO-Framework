@@ -26,6 +26,6 @@ describe("contact feature test",function(){
         assert.equal(contactPage.doClickCreateContactButton(),contact_Data.email,'record not created');
 
 
-    })
+    }) 
 
 })

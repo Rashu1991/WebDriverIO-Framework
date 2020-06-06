@@ -1,0 +1,58 @@
+{
+  "uid" : "37039e143b52ba4e",
+  "name" : "verify sign up link",
+  "fullName" : "loginpage feature test.verify sign up link",
+  "historyId" : "79fb9ef84f6b28285775852649dafde3",
+  "time" : {
+    "start" : 1591456060862,
+    "stop" : 1591456061092,
+    "duration" : 230
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify sign up link"
+  }, {
+    "name" : "package",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37039e143b52ba4e.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "64423a51d7069e98",
+  "name" : "verify click on create contact",
+  "fullName" : "contact feature test.verify click on create contact",
+  "historyId" : "87df53719972cadcd4e947a5aff394b1",
+  "time" : {
+    "start" : 1591456146290,
+    "stop" : 1591456170804,
+    "duration" : 24514
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "contact feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "contact feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify click on create contact"
+  }, {
+    "name" : "package",
+    "value" : "contact feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64423a51d7069e98.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "fac4a0cc4ec96a15",
+  "name" : "verify login",
+  "fullName" : "loginpage feature test.verify login",
+  "historyId" : "2236bb6a03ba831f7d0b60fc4c0c4423",
+  "time" : {
+    "start" : 1591456061093,
+    "stop" : 1591456063241,
+    "duration" : 2148
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login"
+  }, {
+    "name" : "package",
+    "value" : "loginpage feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fac4a0cc4ec96a15.json",
+  "parameterValues" : [ "chrome" ]
+}

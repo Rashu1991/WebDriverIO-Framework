@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Rashu1991/WebDriverIO-Framework#readme",
   "devDependencies": {
+    "@wdio/allure-reporter": "^6.1.14",
     "@wdio/local-runner": "^6.1.14",
     "@wdio/mocha-framework": "^6.1.14",
     "@wdio/spec-reporter": "^6.1.14",

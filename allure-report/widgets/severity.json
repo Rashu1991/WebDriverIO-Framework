@@ -1,0 +1,111 @@
+[ {
+  "uid" : "37039e143b52ba4e",
+  "name" : "verify sign up link",
+  "time" : {
+    "start" : 1591456060862,
+    "stop" : 1591456061092,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bc2a7ba1085f7a6",
+  "name" : "verify sign out",
+  "time" : {
+    "start" : 1591456111914,
+    "stop" : 1591456115138,
+    "duration" : 3224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c6a3bdf5202874a",
+  "name" : "verify home page title",
+  "time" : {
+    "start" : 1591456088005,
+    "stop" : 1591456107082,
+    "duration" : 19077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "470014bee207b53a",
+  "name" : "verify home page header",
+  "time" : {
+    "start" : 1591456107083,
+    "stop" : 1591456108538,
+    "duration" : 1455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8077a73c6a3f944e",
+  "name" : "create contact test",
+  "time" : {
+    "start" : 1591456170806,
+    "stop" : 1591456181501,
+    "duration" : 10695
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a9110a9a221df94",
+  "name" : "verify account name ",
+  "time" : {
+    "start" : 1591456110055,
+    "stop" : 1591456111593,
+    "duration" : 1538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49cfdb5339a29f61",
+  "name" : "verify click on contact Dropdown",
+  "time" : {
+    "start" : 1591456111594,
+    "stop" : 1591456111913,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fac4a0cc4ec96a15",
+  "name" : "verify login",
+  "time" : {
+    "start" : 1591456061093,
+    "stop" : 1591456063241,
+    "duration" : 2148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3f100a3cb57ceef",
+  "name" : "verify click on search",
+  "time" : {
+    "start" : 1591456108538,
+    "stop" : 1591456110054,
+    "duration" : 1516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adaf8268055f78fe",
+  "name" : "verify login page title",
+  "time" : {
+    "start" : 1591456053625,
+    "stop" : 1591456060860,
+    "duration" : 7235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64423a51d7069e98",
+  "name" : "verify click on create contact",
+  "time" : {
+    "start" : 1591456146290,
+    "stop" : 1591456170804,
+    "duration" : 24514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

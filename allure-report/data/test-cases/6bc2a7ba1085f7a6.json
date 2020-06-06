@@ -1,0 +1,66 @@
+{
+  "uid" : "6bc2a7ba1085f7a6",
+  "name" : "verify sign out",
+  "fullName" : "home page feature test.verify sign out",
+  "historyId" : "56116d522be48294850a71ac26cd17d3",
+  "time" : {
+    "start" : 1591456111914,
+    "stop" : 1591456115138,
+    "duration" : 3224
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "home page feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "home page feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify sign out"
+  }, {
+    "name" : "package",
+    "value" : "home page feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c4ce319e7ea7f3b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591455893842,
+        "stop" : 1591455896704,
+        "duration" : 2862
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6bc2a7ba1085f7a6.json",
+  "parameterValues" : [ "chrome" ]
+}
